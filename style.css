@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:200,400,700';
+
 html {
   height: 100%;
   width: 100%;
@@ -6,19 +8,80 @@ html {
 body {
   height: 95%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(100, 100, 100);
 }
 
 .main-container {
   width: 75%;
-  margin: 10px auto;
+  margin: 1.5vh auto;
   background: rgba(255, 255, 255, 0.86);
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 6px rgb(125, 125, 125);
+}
+
+.picture-container {
+  width: 101.4%;
+  margin-top: -.7%;
+  margin-left: -.7%;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: url(https://devmounta.in/img/classroom-blurred.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*opacity: .50;*/
+}
+
+.circle-logo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: -75px;
+  background: url(https://devmounta.in/img/badge.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: white;
+  border-radius: 75px;
+  box-shadow: 0px 0px 2px rgb(160, 160, 160);
+}
+
+.chat-container {
+  width: 100%;
+  /*margin-left: -.6%;*/
+  /*background: white;*/
+  background-size: contain;
+  background-position: center;
+  padding-bottom: 30px;
 }
 
 .main-container h1 {
   text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(153, 153, 153)
+}
+
+.main-container h4 {
+  text-align: center;
+  font-weight: normal;
+  color: rgb(153, 153, 153);
+  line-height: 0.5;
+}
+
+.main-container h6 {
+  text-align: center;
+  padding-top:10px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(153, 153, 153);
+  letter-spacing: 2px;
 }
 
 .text-box {
@@ -26,8 +89,24 @@ body {
   width: 40%;
 }
 
-p{
-  text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+.messages-container {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 15px;
+  background: rgb(239, 239, 239);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgb(150, 150, 150);
+}
+
+p {
+  text-align: left;
+  padding-left: 14px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(15, 15, 15);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
