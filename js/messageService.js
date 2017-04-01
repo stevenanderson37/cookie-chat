@@ -20,7 +20,7 @@ angular.module('chatroom').service('messageService', function($http){
   //the message being passed to parse. IE data: {message: yourMessage}
   //Also, remember that $http returns a promise. So if you return the whole $http call
   //(return $http(...)), you can then use .then in your controller.
-  var address = 'https://practiceapi.devmounta.in/api/chats';
+  var address = 'http://practiceapi.devmounta.in/api/chats';
   //postMessage method here
   this.postMessage = function(yourMessage) {
     return $http({  //this is returning a promise.
