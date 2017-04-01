@@ -13,13 +13,14 @@
       <div class="chat-container">
         <h1> DevMountain Chat Room </h1>
         <h4> A simple parse powered not-so-private chat </h4>
-        <h6> BY STEVEN ANDERSON </h6>
+        <h6> CLONED BY STEVEN ANDERSON </h6>
         <form ng-submit="postMessage(message)">
           <input class="form-control text-box" type="text" ng-model="message"   placeholder="Compose Message" style="margin-bottom: 20px;">
         </form>
         <div>
           <p ng-repeat="message in messages | reverse" class="messages-container">
-            {{message.message}} </p>
+            {{message.message}}
+          </p>
         </div>
       </div>
     </div>
